@@ -60,7 +60,4 @@ class RobotFactory
     @available_names << name
   end
 
-  private
-    attr_accessor :names, :available_names
-
 end
